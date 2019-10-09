@@ -1,0 +1,28 @@
+{
+    "name": "Database",
+    "short_name": "DB",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#3E4EB8",
+    "theme_color": "#2F3BA2",
+    "icons": 
+    [
+        {
+        "src": "/db1.png",
+        "sizes": "156x156",
+        "type": "image/png"
+        },
+
+        {
+        "src": "/db.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        },
+
+        {
+        "src": "/db2.png",
+        "sizes": "128x128",
+        "type": "image/png"
+        }
+    ]
+}

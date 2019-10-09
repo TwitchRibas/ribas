@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="refresh" content="120; URL=index.html">
+    <script src="test.js"></script>
+    <link rel="manifest" href="/manifest.json">
+	<title>Database Viewer</title>      
+	<link rel="icon" href="db.png">
+	<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:600&display=swap" rel="stylesheet">
+</head>
+
+<body background="1234.png">
+
+<div align="center" id="Information">
+<button class = "myButton" onclick = "GetTrabalhos()">Obter dados</button>
+</div>
+
+<div style="color:white" align="center" class = "div" id = "divtable"></div>
+
+</body>
+
+<style>
+
+.div {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.myButton {
+	background-color:#d41313;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #9e0b0b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#940c0c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>
+</html>
